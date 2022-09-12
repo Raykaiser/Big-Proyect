@@ -1,0 +1,17 @@
+body{
+    
+    background-color: DarkOliveGreen;
+      
+}
+
+p {
+    color: red;
+    text-shadow: 2px;
+
+}
+
+a {
+    color: rgb(43, 255, 0);
+    text-shadow: 2px;
+
+}
