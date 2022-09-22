@@ -11,30 +11,30 @@
 
 <body>
     <nav>
-        <a class="link" title="Volver a inicio" href="index.html">Volver</a>
+        <a class="link-volver" title="Volver a inicio" href="index.html">Volver</a>
     </nav>
 
 	<h1 class="titulo-principal"><center>JavaScript CRUD Example Tutorial</center></h1>
 	<hr>
-			<div class="employee-form">
+			<div class="formulario">
                 <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
-                    <div>
-                        <label class="text-label">Full Name*</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
-                        <input type="text" name="fullName" id="fullName">
+                    <div class="nombre-completo">
+                        <label>Full Name*</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                        <input class="caja-name"  type="text" name="fullName" id="fullName">
                     </div>
-                    <div>
-                        <label class="text-label">Email Id</label>
-                        <input type="text" name="email" id="email">
+                    <div class="email">
+                        <label>Email Id</label>
+                        <input class="caja-email" type="text" name="email" id="email">
                     </div>
-                    <div>
-                        <label class="text-label">Salary</label>
-                        <input type="text" name="salary" id="salary">
+                    <div class="salario">
+                        <label>Salary</label>
+                        <input class="caja-salario" type="text" name="salary" id="salary">
                     </div>
-                    <div>
-                        <label class="text-label">City</label>
-                        <input type="text" name="city" id="city">
+                    <div class="ciudad">
+                        <label>City</label>
+                        <input class="caja-ciudad" type="text" name="city" id="city">
                     </div>
-                    <div  class="form-action-buttons">
+                    <div  class="guardar">
                         <input type="submit" value="Submit">
                     </div>
                 </form>
